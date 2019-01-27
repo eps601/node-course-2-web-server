@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+ 
+  <html class="no-js"> 
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Some Website</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    {{> header}}
+
+    {{!-- screamIt is a helper that will change the welcomeMessage to upper case. --}}
+    <p>{{screamIt welcomeMessage}}</p>
+    
+    {{> footer}}
+    <!-- <script src="" async defer></script> -->
+  </body>
+</html>
